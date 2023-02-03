@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+
+.box-shadow {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+}
+
+.header {
+	padding: 30px;
+	text-align: center;
+	background: white
+}
+
+.header h1 {
+	font-size: 50px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.product-img {
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	object-fit: contain;
+}
+
+
+
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+}
